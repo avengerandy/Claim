@@ -112,10 +112,11 @@ By restricting permissions and fixing agent responsibilities, CLAIM simplifies t
 
 ## License
 
-Source code is licensed under the MIT License.
+The source code in this repository is licensed under the MIT License.
 
-[LICENSE-CODE](https://github.com/avengerandy/claim/blob/master/LICENSE-CODE)
+See [LICENSE-CODE](https://github.com/avengerandy/claim/blob/master/LICENSE-CODE) for details.
 
-Documentation, methodology, and written content are licensed under the Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0).
+The documentation, methodology, and written content are licensed under
+the Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0).
 
-[LICENSE](https://github.com/avengerandy/claim/blob/master/LICENSE)
+See [LICENSE](https://github.com/avengerandy/claim/blob/master/LICENSE) for details.
