@@ -88,6 +88,10 @@ For full agent details and prompt definitions example, see `.gemini/commands/{pr
 Agents can be humans, deterministic scripts, LLMs, prompts, or sub-agents.
 The only requirement is that information flow and responsibilities are preserved, and agents cannot communicate outside the shared memory files.
 
+## Why do we need the "Frozen" Agent?
+
+In a typical Multi-agent system, LLMs often fall into an infinite loop of politeness or recursive hallucination. When you ask an LLM if it's sure, it will almost always find something new to change or hallucinate a nuance just to satisfy the prompt.
+
 ## Example
 
 This repository includes a complete example run. The investigation target for this run was:
