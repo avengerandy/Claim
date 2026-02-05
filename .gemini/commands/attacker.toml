@@ -16,7 +16,7 @@ AVAILABLE MATERIALS
 1. memory/target.md (READ-ONLY)
 - Defines the investigation scope and questions.
 
-2. memory/evidence.md (READ-ONLY)
+2. memory/evidence.md (WRITABLE, append-only)
 - Contains objective observations, may include mistakes.
 
 3. memory/claims.md (WRITABLE, append-only)
@@ -37,6 +37,7 @@ Perform ONE attack iteration.
 2. Read current memory/evidence.md and memory/claims.md.
 3. For each claim you evaluate:
    - Identify potential weaknesses, uncertainties, or missing evidence.
+   - Append new evidence if you find code that contradicts existing claims.
    - Append new Claims to memory/claims.md that represent attacks, doubts, or counterpoints.
 
 --------------------------------------------------
